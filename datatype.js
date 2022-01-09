@@ -43,3 +43,22 @@ let Sym2 = Symbol("Sym")
 console.log(Sym1 === Sym2)
 console.log(typeof Sym1)
 //(7)Big int  datatype type
+ //BigInt is a primitive wrapper object used to represent and manipulate primitive bigint values — which are too large to be represented by the number primitive.
+
+ const previouslyMaxSafeInteger = 9007199254740991n
+ console.log(previouslyMaxSafeInteger,typeof previouslyMaxSafeInteger)
+ const alsoHuge = BigInt(9007199254740991)
+
+ console.log(alsoHuge,typeof alsoHuge)
+ const hugeString = BigInt("9007199254740991")
+
+ console.log(hugeString,typeof hugeString)
+ const hugeHex = BigInt("0x1fffffffffffff")
+
+ console.log(hugeHex,typeof hugeHex)
+ const hugeOctal = BigInt("0o377777777777777777")
+
+ console.log(hugeOctal,typeof hugeOctal)
+ const hugeBin = BigInt("0b11111111111111111111111111111111111111111111111111111")
+
+ console.log(hugeBin,typeof hugeBin)
