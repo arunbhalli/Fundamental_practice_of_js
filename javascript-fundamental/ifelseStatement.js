@@ -7,18 +7,18 @@ if (age >= 18) {
   result = 'Can get a driving licence';
 } else {
   const remainingAge = 18 - age;
-  result = `You can apply for licence after ${remainingAge} years`;
+  result = `You can apply for license after ${remainingAge} years`;
 }
 console.log(result);
 
-// Checking for for the person born before 20 centuary or after 20 centuary and printing centuary also...............
+// Checking for for the person born before 20 centaury or after 20 centaury and printing centuary also...............
 
-const birtYear = 1997
-let centuary;
-if (birtYear <= 2000){
-centuary = 20
+const birthYear = 1997
+let centaury;
+if (birthYear <= 2000){
+centaury = 20
 }
 else{
-  centuary = 21;
+  centaury = 21;
 }
-console.log(centuary)
+console.log(centaury)
