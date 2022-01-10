@@ -41,14 +41,14 @@ else if (day ==='thursday') {
   console.log('Cook food for the weekend');
 }
 else if (day ==='friday') {
-  console.log('Bake pizza for the weekend');
+  console.log('Bake pizza for the weekend++++');
 }
 else if (day ==='saturday'){
-  console.log('go for ice skating');
+  console.log('go for ice skating❤');
 }
 else if (day ==='sunday') {
   console.log('apply for jobs');
 } else {
-  console.log('Not a valid day ');
+  console.log('Not a valid day🤢 ');
 } 
 
