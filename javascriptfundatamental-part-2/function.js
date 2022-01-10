@@ -1,4 +1,4 @@
-// calling a function that// Running a function//Invoking a function
+// calling a function // Running a function//Invoking a function
 function logger() {
   console.log('my name is Arun');
 }
