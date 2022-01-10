@@ -2,7 +2,7 @@
 const day= 'saturday'
 //let dayup = day.toLowerCase(); // if input value contains any uppercase it will be converted to lower case
 console.log(day);
-switch (day) {  //replace dayup with day to use prompt
+/*switch (day) {  //replace dayup with day to use prompt
   case 'monday':
     console.log('Go to sfi school');
     break;
@@ -27,3 +27,28 @@ switch (day) {  //replace dayup with day to use prompt
   default:
     console.log('Not a valid day ');
 }
+*/
+// same code with id else just
+if (day ==='monday') {
+  console.log('Go to sfi school');
+} else if (day ==='tuesday') {
+  console.log('finish Fundamental of Js');
+}
+else if (day ==='wednesday') {
+  console.log('GO for groceries');
+}
+else if (day ==='thursday') {
+  console.log('Cook food for the weekend');
+}
+else if (day ==='friday') {
+  console.log('Bake pizza for the weekend');
+}
+else if (day ==='saturday'){
+  console.log('go for ice skating');
+}
+else if (day ==='sunday') {
+  console.log('apply for jobs');
+} else {
+  console.log('Not a valid day ');
+} 
+
